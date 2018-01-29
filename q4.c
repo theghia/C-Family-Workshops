@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*Using pointers with arrays*/
+
 int main()
 {
  unsigned short int intArray[10];

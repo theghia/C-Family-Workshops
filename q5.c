@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*Passing by reference*/
+
 void updateInteger(int *);
 
 int main()

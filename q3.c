@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*This piece of code is primarily to explain better how pointers work*/
+
 int main()
 {
  /*When running the program several times, the memory address keeps changing
