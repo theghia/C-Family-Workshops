@@ -1,0 +1,9 @@
+At the command line type:
+
+chmod u+x compMenuTree
+./compMenuTree menuTrees
+
+To run the program, specify a text file, for example:
+
+./menuTrees testExample1.txt
+

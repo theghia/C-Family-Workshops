@@ -1,0 +1,3 @@
+gcc -c -ansi readMenuFile.c -I. -Ilib/ -o readMenuFile.o
+gcc -c -ansi menuTrees.c -I. -Ilib/ -o menuTrees.o
+gcc readMenuFile.o menuTrees.o -Llib/ -lm -o menuTrees
