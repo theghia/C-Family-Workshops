@@ -32,7 +32,8 @@ int PrintProductArray(Product p[], int len)
     for (i=0; i<len; i++)
     {
         if (i == 0)
-	    /*This is smart and tidy. The first element of the list needs to be below the title and the             dashes, so the argument of 1 is given to evaluate as true in the PrintProduct function*/
+	    /*This is smart and tidy. The first element of the list needs to be below the title and the dashes, */
+		/* so the argument of 1 is given to evaluate as true in the PrintProduct function */
             PrintProduct(p[i], 1);
         else
             PrintProduct(p[i], 0);

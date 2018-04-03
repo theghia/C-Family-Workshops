@@ -19,7 +19,7 @@ int main()
  
  printf("The new value of x using xPtr is: %d\n", *xPtr);
  
- printf("The memory address of where xPtr is stored is: %d\n", &xPtr);
+ printf("The memory address of where xPtr is stored is: %d\n", xPtr);
  
  /*the value stored in x should have changed now*/
  printf("Just verifying that the value of x has been updated to %d\n",x);
