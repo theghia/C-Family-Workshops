@@ -1,0 +1,15 @@
+# Compile the readMonarchs.c program into object code
+gcc -c -ansi readMonarchs.c -I. -Ilib/ -o readMonarchs.o
+#For my one
+gcc -c -ansi readMonarchsUpdated.c -I. -Ilib/ -o readMonarchsUpdated.o
+
+# Compile the readMonarchsMain.c program into object code
+gcc -c -ansi readMonarchsMain.c -I. -Ilib/ -o readMonarchsMain.o
+
+# Link the two to make an executable called readMonarchsMain
+gcc readMonarchs.o readMonarchsMain.o -Llib/ -lm -o readMonarchsMain
+#For my one
+gcc readMonarchsUpdated.o readMonarchsMain.o -Llib/ -lm -o readMonarchsMain
+
+
+

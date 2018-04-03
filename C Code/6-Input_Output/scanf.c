@@ -5,7 +5,7 @@
 
 int main (void)
 {
-    char firstName[11];
+	char firstName[11];
 	char lastName [11];
 	
 	printf("What is your first and last name? ");
