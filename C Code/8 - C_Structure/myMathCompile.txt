@@ -1,0 +1,1 @@
+gcc myMaths.o -lm -o myMaths
