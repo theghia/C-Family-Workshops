@@ -1,0 +1,3 @@
+gcc -c -ansi genericFunctions.c -I. -Ilib/ -o genericFunctions.o
+gcc -c -ansi macbeth.c -I. -Ilib/ -o macbeth.o
+gcc genericFunctions.o macbeth.o -Llib/ -lm -o macbeth
